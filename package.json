@@ -1,0 +1,26 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "Simple password generator",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdthomp1/passgen.git"
+  },
+  "author": "Cameron Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdthomp1/passgen/issues"
+  },
+  "homepage": "https://github.com/cdthomp1/passgen#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.0.0"
+  }
+}
